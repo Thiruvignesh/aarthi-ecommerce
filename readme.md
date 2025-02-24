@@ -32,7 +32,7 @@ Before you begin, make sure you have the following installed:
 4. **Start the development server:**
 
     ```bash
-    npm start
+    npm run dev
     ```
 
     This will start the development server and open your React application in the default web browser.
