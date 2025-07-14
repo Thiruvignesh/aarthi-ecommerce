@@ -40,7 +40,7 @@ A complete frontend-only women's fashion e-commerce web application built with R
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 src/
 ├── components/
 │   ├── ui/                 # Reusable UI components
@@ -79,7 +79,7 @@ app/                        # Next.js App Router pages
 ├── login/page.jsx
 ├── register/page.jsx
 └── layout.jsx
-\`\`\`
+```
 
 ## 🚀 Getting Started
 
@@ -87,14 +87,14 @@ app/                        # Next.js App Router pages
 
 1. **Clone or download the project**
 2. **Install dependencies**:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Start the development server**:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 4. **Open your browser** and navigate to `http://localhost:3000`
 
@@ -154,7 +154,7 @@ All application data is automatically saved to localStorage:
 ### Adding New Fashion Products
 Edit `src/services/mockData.js` and add products to the `products` array:
 
-\`\`\`javascript
+```javascript
 {
   id: 11,
   name: 'Designer Dress',
@@ -170,7 +170,7 @@ Edit `src/services/mockData.js` and add products to the `products` array:
   tags: ['designer', 'elegant', 'special-occasion'],
   featured: true
 }
-\`\`\`
+```
 
 ### Image Sources
 All product images are sourced from Unsplash with fashion-specific search terms:
