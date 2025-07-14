@@ -1,5 +1,7 @@
 "use client"
 
+export const runtime = 'edge';
+
 import { useParams, useRouter } from "next/navigation"
 import Image from "next/image"
 import { ArrowLeft, Download, Package, MapPin, CreditCard, Truck } from "lucide-react"

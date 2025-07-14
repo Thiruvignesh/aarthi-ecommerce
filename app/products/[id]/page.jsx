@@ -1,6 +1,8 @@
 "use client"
 
-import { useEffect, useState } from "react"
+export const runtime = 'edge';
+
+import { useState, useEffect } from "react"
 import { useParams, useRouter } from "next/navigation"
 import Image from "next/image"
 import { Heart, ShoppingCart, Star, Minus, Plus, ArrowLeft } from "lucide-react"
